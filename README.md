@@ -88,3 +88,19 @@ Let's port forward the service and see if it is rolling. The output from the `he
 
 This deserves a celebration. We deployed our first Kubernetes service using Helm Charts!
 
+
+## Iteration 2 
+
+My web server needs some configurations. A configmap would be ideal. Can I add it to my Helm Chart?
+
+What about a secret? Does that roll?
+
+
+## Iteration 3
+
+New management just came into my house. I now need to update both the configmap and the secret. Can I do with Helm?
+
+
+## Iteration 4 
+
+The job was very tough on the new management. They quit. I need to rollback my Helm Chart release. How do i do it???
